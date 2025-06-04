@@ -16,7 +16,7 @@
     Проверка возможности поиска товаров по категории
   requirement: |
     Пользователь должен иметь возможность искать товары по категории
-  prerequisites:
+  prerequisites: |
     Открыта главная страница сайта: https://hexlet-products-store.vercel.app/
   test-data: |
     Отсутствуют
@@ -29,7 +29,7 @@
     Проверка работоспособности фильтра "Производитель"
   requirement: |
     Пользователь должен иметь возможность фильтровать товары
-  prerequisites:
+  prerequisites: |
     Открыта главная страница сайта: https://hexlet-products-store.vercel.app/
   test-data: |
     Отсутствуют
@@ -42,7 +42,7 @@
     Проверка работоспособности фильтра "В наличии"
   requirement: |
     Пользователь должен иметь возможность фильтровать товары
-  prerequisites:
+  prerequisites: |
     Открыта главная страница сайта: https://hexlet-products-store.vercel.app/
   test-data: |
     Отсутствуют
@@ -55,7 +55,7 @@
     Проверка работоспособности фильтра "Цена"
   requirement: |
     Пользователь должен иметь возможность фильтровать товары
-  prerequisites:
+  prerequisites: |
     Открыта главная страница сайта: https://hexlet-products-store.vercel.app/
   test-data: |
     Отсутствуют
@@ -68,7 +68,7 @@
     Проверка отображения товаров и подробной информации о товара
   requirement: |
     Пользователь должен иметь возможность просматривать товары и просматривать подробную информацию о товаре
-  prerequisites:
+  prerequisites: |
     Открыта главная страница сайта: https://hexlet-products-store.vercel.app/
   test-data: |
     Отсутствуют
@@ -83,7 +83,7 @@
     Успешное добавление товара в корзину
   requirement: |
     Пользователь должен иметь возможность добавлять товары в корзину
-  prerequisites:
+  prerequisites: |
     Открыта главная страница сайта: https://hexlet-products-store.vercel.app/
   test-data: |
     Отсутствуют
@@ -97,7 +97,7 @@
     Проверка просмотра содержимого корзины
   requirement: |
     Пользователь должен иметь возможность просматривать содержимое корзины
-  prerequisites:
+  prerequisites: |
     Открыта главная страница сайта: https://hexlet-products-store.vercel.app/ , в корзину добавлено любое количество товаров
   test-data: |
     Отсутствуют
@@ -110,7 +110,7 @@
     Успешное переключение языка интерфейса
   requirement: |
     Пользователь должен иметь возможность переключить язык интерфейса
-  prerequisites:
+  prerequisites: |
     Открыта главная страница сайта: https://hexlet-products-store.vercel.app/
   test-data: |
     Отсутствуют
