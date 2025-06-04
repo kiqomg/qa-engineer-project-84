@@ -42,7 +42,7 @@ bugreports:
     environment: |
       Google Chrome Версия: 137.0.7151.57 Официальная сборка 64 бит
       ОС Windows 10
-    steps-to-reproduce:
+    steps-to-reproduce: |
       - Отметить чекбокс "В наличии"
     expected-result: |
       При отключении фильтра "В наличии" отображаются товары, которых нет в наличии
@@ -55,7 +55,7 @@ bugreports:
     environment: |
       Google Chrome Версия: 137.0.7151.57 Официальная сборка 64 бит
       ОС Windows 10
-    steps-to-reproduce:
+    steps-to-reproduce: |
       - Установить цену "от"
     expected-result: |
       В выборку попадают товары с фильтром по цене с учетом скидки
@@ -67,7 +67,7 @@ bugreports:
     environment: |
       Google Chrome Версия: 137.0.7151.57 Официальная сборка 64 бит
       ОС Windows 10
-    steps-to-reproduce:
+    steps-to-reproduce: |
       - Выбрать любой товар
       - Ввести стоимость товара до сотой части в фильтр "Цена"
     expected-result: |
