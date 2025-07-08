@@ -2,7 +2,7 @@
 test-cases:
 - summary: |
     Проверка возможности поиска товаров по ключевому слову
-  status: pass
+  status: fail
   
 - summary: |
     Проверка возможности поиска товаров по категории
@@ -10,11 +10,11 @@ test-cases:
   
 - summary: |
     Проверка работоспособности фильтра Производитель
-  status: pass
+  status: fail
   
 - summary: |
     Проверка работоспособности фильтра В наличии
-  status: pass
+  status: fail
   
 - summary: |
     Проверка работоспособности фильтра Цена
@@ -98,7 +98,7 @@ test-cases:
 
 - summary: |
     Проверка работоспособности сайта на мобильном устройстве
-  status: pass
+  status: fail
 
 - summary: |
     Успешное закрытие окна оформления заказа кнопкой "Закрыть"
@@ -110,7 +110,7 @@ test-cases:
 
 - summary: |
     Проверка работоспособности фильтров по каталогу на мобильных устройствах
-  status: fail
+  status: pass
     
 bugreports:
   - summary: |
@@ -137,3 +137,22 @@ bugreports:
       Отображаются товары, согласно выбранному производителю
     actual-result: |
       Фильтр не применяется
+
+  - summary: |
+      Не отображаются фильтры и строка поиска на указанных мобильных устройствах
+    environment: |
+      Google Chrome Версия: 137.0.7151.57 Официальная сборка 64 бит
+      ОС Windows 10
+    steps-to-reproduce: |
+      - Открыть DevTools
+      - Перейти во вкладку Toggle Devise ToolBar
+      - Выбрать поочередно доступные устройства для имитации отображения
+      - Проверяем, что фильтры и строка поиска отображаются
+    expected-result: |
+      Отображаются фильтры и строка поиска
+    actual-result: |
+      Не отображаются фильтры и строка поиска на указанных мобильных устройствах: iPhone SE, iPhone XR, iPhone 12 Pro, iPhone 14 Pro max, Pixel 7, Samsung Galaxy S8+, Samsung Galaxy S20 Ultra, Surface Duo, Galaxy Z Fold 5, Samsung Galaxy A51/71
+
+    
+
+    
