@@ -73,7 +73,7 @@
   expected-result: |
     Товары отображаются в каталоге товаров на всех мобильных устройствах
   actual-result: |
-    Товары не отображаются в каталоге товаров на некоторых мобильных устройствах
+    Товары не отображаются в каталоге товаров на мобильных устройствах: iPhone SE, iPhone XR, iPhone 12 PRO, Pixel 7, Samsung Galaxy S8+, Samsung Galaxy S20 Ultra, Galaxy Z Fold 5, Samsung Galaxy A51/71
 
 - summary: |
     У товаров не отображается рейтинг в каталоге товаров
