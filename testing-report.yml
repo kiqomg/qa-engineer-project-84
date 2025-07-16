@@ -84,15 +84,7 @@
   status: fail
 
 - summary: |
-    Проверка работоспособности сайта в браузере Mozilla FireFox
-  status: pass
-
-- summary: |
-    Проверка работоспособности сайта в браузере Google Chrome
-  status: pass
-
-- summary: |
-    Проверка работоспособности сайта в браузере Safari
+    Проверка работоспособности сайта в браузерах Mozilla FireFox, Google Chrome и Safari
   status: pass
 
 - summary: |
